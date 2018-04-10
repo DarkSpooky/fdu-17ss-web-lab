@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab04</title>
+    <link rel="stylesheet" type="text/css" href="Lab04.css"/>
+</head>
+<body>
+<header>
+    <h1>Share Your Travels</h1>
+    <p>let us know where you've been</p>
+</header>
+<main>
+    <form action="http://www.randyconnolly.com/tests/process.php" method="post">
+        <fieldset>
+            <legend>PHOTO DETAILS</legend>
+            <section>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td colspan="2">
+                            <p>Title</p>
+                            <input type="text" name="title" value="Give your photo a descriptive name">
+                            <p>Description</p>
+                            <textarea rows="5">Adding a rich description will help with search results</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Continent</p>
+                            <select>
+                                <option value="Choose Continent">Choose Continent</option>
+                            </select>
+                            <p>Country</p>
+                            <select>
+                                <option value="Choose Country">Choose Country</option>
+                            </select>
+                            <p>City</p>
+                            <input type="text" name="city">
+                        </td>
+                        <td>
+                            <div class="box">
+                                <p>Copyright?</p>
+                                <p><input type="radio">All rights Reserved</p>
+                                <p><input type="radio">Creative Comments</p>
+                            </div>
+                            <div class="box">
+                                <p>Creative Comments Types</p>
+                                <p><input type="checkbox">Attribution</p>
+                                <p><input type="checkbox">Noncommercial</p>
+                                <p><input type="checkbox">No Derivation Works</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="rectangle">
+                            <p>I accept the software license<input type="checkbox"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Rate this photo:</p>
+                            <input type="text">
+                            <p>Color Collection:</p>
+                            <input name="color" type="color" value="black">
+                        </td>
+                        <td>
+                            <div class="box">
+                                <p>Date Taken:</p>
+                                <input type="date" name="type">
+                                <p>Time Taken:</p>
+                                <input type="time" name="time">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="rectangle">
+                            <input type="button" class="rounded" value="提交">
+                            <input type="button" class="rounded" value="clear Form">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+        </fieldset>
+    </form>
+</main>
+</body>
+</html>
