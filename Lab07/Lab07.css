@@ -1,0 +1,47 @@
+body {
+
+    text-align: center;
+
+}
+
+
+
+#s1, #t ,#s2,#c{
+
+    width: 300px;
+
+}
+
+
+
+table {
+
+    margin: 0 auto;
+
+}
+
+
+
+th {
+
+    background-color: grey;
+
+    color: whitesmoke;
+
+}
+
+
+
+tr:nth-child(odd) td {
+
+    background-color: lightgrey;
+
+}
+
+
+
+td {
+
+    padding: 0 0.5em;
+
+}
